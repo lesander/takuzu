@@ -172,8 +172,8 @@ class Takuzu:
         self.__log('solved=False')
         return self.board.tolist()
 
-    def check(self, a, b):
-        a = np.array(a)
-        b = np.array(b)
-        assert(np.all(a == b)), 'solution does not match result'
+    def check(self, solution):
+        board_solution = np.array(solution)
+        assert(np.all(self.board == board_solution)), 'solution does not match result'
         self.__log('correct=True')
+        return True

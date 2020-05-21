@@ -11,4 +11,4 @@ s = [ [0, 1, 1, 0],
     ]
 t = Takuzu(board=b, debug=False, silent=True)
 r = t.solve()
-t.check(s, r)
+t.check(s)

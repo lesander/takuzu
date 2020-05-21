@@ -31,4 +31,4 @@ s = [
 
 t = Takuzu(board=b, debug=False, silent=False)
 r = t.solve()
-t.check(s, r)
+t.check(s)
