@@ -16,7 +16,7 @@ $ pip3 install -r requirements.txt
 ## Usage
 ```python
 from takuzu import Takuzu
-board =   [[None, 1,    None, 0],
+board = [[None, 1,    None, 0],
       	 [None, None, 0,    None],
       	 [None, 0,    None, None],
       	 [1,    1,    None, 0]]
